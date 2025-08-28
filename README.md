@@ -1,5 +1,12 @@
 💰 FinanceManager
 
+
+
+
+
+
+
+
 FinanceManager is a simple Java-based finance tracking application that helps you manage incomes and expenses directly from the command line.
 It is built using Maven for dependency management and easy builds.
 
@@ -74,6 +81,14 @@ Run all tests with:
 
 mvn test
 
+📂 Project Structure
+FinanceManager/
+├── src/
+│   ├── main/java/com/financemanager/App.java
+│   ├── test/java/com/financemanager/AppTest.java
+├── pom.xml
+├── README.md
+
 🤝 Contributing
 
 Fork the repository
@@ -85,9 +100,3 @@ Commit changes (git commit -m "Added new feature")
 Push to your branch (git push origin feature/your-feature-name)
 
 Open a Pull Request
-
-📜 License
-
-This project is licensed under the MIT License – feel free to use and modify it.
-
-👉 Replace YOUR_USERNAME in the clone URL with your GitHub username once you push the repo.
